@@ -1,0 +1,15 @@
+{
+  "name": "peachwave",
+  "version": "1.0.0",
+  "description": "PEACHWAVE - 3D Employee Attendance, Leave & Workforce Management System",
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "seed": "cd backend && npm run seed",
+    "build": "cd backend && npm run build && cd ../frontend && npm run build"
+  },
+  "keywords": ["attendance", "workforce", "peachwave", "threejs", "mongodb"],
+  "author": "PEACHWAVE Engineering",
+  "license": "ISC"
+}
+
